@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./viewport.component.css']
 })
 export class ViewportComponent {
-
+  imgUrl:string ="../assets/photo.jpg";
 }
