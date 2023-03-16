@@ -12,13 +12,24 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { HomeComponent } from './home/home.component';
 import {MatButtonModule} from '@angular/material/button';
+import {MatMenuModule} from '@angular/material/menu';
+import { AdminLoginComponent } from './Admin/admin-login/admin-login.component';
+import { DashboardComponent } from './Admin/dashboard/dashboard.component';
+import { EmployeeLoginComponent } from './Employee/employee-login/employee-login.component';
+import { EmployeeDashboardComponent } from './Employee/employee-dashboard/employee-dashboard.component';
+import { ContactComponent } from './contact/contact.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     ViewportComponent,
-    HomeComponent
+    HomeComponent,
+    AdminLoginComponent,
+    DashboardComponent,
+    EmployeeLoginComponent,
+    EmployeeDashboardComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +38,8 @@ import {MatButtonModule} from '@angular/material/button';
     NgbModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

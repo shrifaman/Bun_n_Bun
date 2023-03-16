@@ -1,14 +1,16 @@
 <mat-toolbar>
-    <button routerLink="/home" routerLinkActive="active" mat-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <a routerLink="/home">
       <span style="font-style: italic; margin-top: 0px;">Bun n Bun </span>
       <span  >Restadunt</span>
-    </button>
+    </a>
     <span class="example-spacer"></span>
-    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-      <mat-icon>favorite</mat-icon>
+    <button routerLink="/contact" routerLinkActive="active" mat-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    CONTACT
     </button>
-    <button mat-button class="example-icon" aria-label="Example icon-button with share icon">
-      <span>LOGIN</span>
-    </button>
+    <button mat-button [matMenuTriggerFor]="belowMenu">LOGIN</button>
+    <mat-menu #belowMenu="matMenu" yPosition="below">
+      <button mat-menu-item routerLink="/admin_login" routerLinkActive="active">Admin_Login</button>
+      <button mat-menu-item routerLink="/employee_eogin" routerLinkActive="active">Employee_Login</button>
+    </mat-menu>
   </mat-toolbar>
   
