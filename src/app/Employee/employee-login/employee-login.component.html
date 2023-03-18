@@ -1,1 +1,19 @@
-<p>employee-login works!</p>
+<div id="login_page">
+    <div id="login_from">
+        <mat-toolbar id="login_from_head">
+            Welcome
+        </mat-toolbar>
+        <br><br><br>
+        <form>
+            <label for="user_name">Username</label><br>
+            <input type="email" placeholder="Username" class="form_input" name="user_name"><br><br>
+            <label>Password</label><br>
+            <input type="password" placeholder="Username" class="form_input" >
+            <br><br>
+            <button mat-button type="submit" routerLink="/emp">login</button><br>
+            <span>
+                <input type="checkbox">Remember me
+            </span>
+        </form>
+    </div>
+</div>

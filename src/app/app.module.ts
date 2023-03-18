@@ -19,6 +19,9 @@ import { EmployeeLoginComponent } from './Employee/employee-login/employee-login
 import { EmployeeDashboardComponent } from './Employee/employee-dashboard/employee-dashboard.component';
 import { ContactComponent } from './contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { SliderComponent } from './slider/slider.component';
+import {MatInputModule} from '@angular/material/input';
+import {MatSidenavModule} from '@angular/material/sidenav';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +34,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     EmployeeLoginComponent,
     EmployeeDashboardComponent,
     ContactComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +45,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+    MatInputModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

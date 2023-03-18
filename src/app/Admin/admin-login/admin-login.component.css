@@ -1,0 +1,28 @@
+#login_page{
+    height: 100%;
+    width:100%;
+    background-color: rgb(23, 122, 209);
+}
+#login_from_head{
+    border-radius:  10px 10px 0px 0px;
+}
+#login_from{
+    border-radius: 5%;
+    position: relative;
+    top: 7%;
+    left: 33%;
+    height: 80%;
+    width: 33%;
+    background-color: azure;
+}
+form{
+    margin-left: 10%;
+}
+.form_input{
+    width: 80%;
+}
+button{
+    position: relative;
+    left: 30%;
+    background-color: aqua;
+}

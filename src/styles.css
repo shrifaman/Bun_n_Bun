@@ -6,7 +6,7 @@
     flex-direction: row;
     align-items: center;
     white-space: nowrap;
-    background-color: aqua;
+    background-color: rgb(136, 6, 162);
 }
 .cdk-overlay-pane{
     margin-top:18px;
@@ -15,5 +15,13 @@
     margin: 0;
     padding: 8px 0;
     list-style-type: none;
-    background-color:aqua;
+    color:  azure;
+    background-color:rgb(136, 6, 162);
+}
+.mdc-button .mdc-button__label {
+    position: relative;
+    color: white;
+}
+.mat-mdc-menu-content .mat-mdc-menu-item .mdc-list-item__primary-text {
+    color: azure;
 }
