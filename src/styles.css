@@ -21,7 +21,12 @@
 .mdc-button .mdc-button__label {
     position: relative;
     color: white;
+    font-size: 15px;
 }
 .mat-mdc-menu-content .mat-mdc-menu-item .mdc-list-item__primary-text {
     color: azure;
+}
+.mat-toolbar-single-row{
+    color: azure;
+    font-style: italic;
 }

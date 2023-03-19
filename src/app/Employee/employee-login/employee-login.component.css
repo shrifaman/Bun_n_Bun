@@ -1,5 +1,5 @@
 #login_page{
-    height: 100%;
+    height:calc(100vh - 100px);
     width:100%;
     background-color: rgb(23, 122, 209);
 }
@@ -8,11 +8,12 @@
 }
 #login_from{
     border-radius: 5%;
-    position: relative;
-    top: 7%;
+    position: absolute;
+    top: 100px;
     left: 33%;
-    height: 80%;
+    height: 70%;
     width: 33%;
+    margin-top: -22px;
     background-color: azure;
 }
 form{
@@ -24,5 +25,5 @@ form{
 button{
     position: relative;
     left: 30%;
-    background-color: aqua;
+    background-color: rgb(5, 99, 99);
 }

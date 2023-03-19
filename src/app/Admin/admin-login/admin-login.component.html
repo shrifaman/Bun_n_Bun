@@ -1,20 +1,28 @@
+<app-header></app-header>
 <div id="login_page">
     <div id="login_from">
         <mat-toolbar id="login_from_head">
-            Welcome
+            Admin Login !
         </mat-toolbar>
         <br><br><br>
         <form>
-            <label for="user_name">Username</label><br>
-            <input type="email" placeholder="Username" class="form_input" name="user_name"><br><br>
-            <label>Password</label><br>
-            <input type="password" placeholder="Username" class="form_input" >
+            <mat-icon>account_circle</mat-icon>
+            <mat-form-field class="example-full-width" appearance="outline">
+                <mat-label>Username</mat-label>
+                <input matInput placeholder="Username">
+            </mat-form-field><br>
+            <mat-icon>key</mat-icon>
+            <mat-form-field class="example-full-width" appearance="outline">
+                <mat-label>Passwor</mat-label>
+                <input matInput placeholder="Password">
+            </mat-form-field>
             <br><br>
-            <button mat-button type="submit" routerLink="/login">login</button><br>
+            <button mat-button type="submit" routerLink="/login">Login</button><br><br>
             <span>
-                <input type="checkbox">Remember me
+                Forgate Password ?
             </span>
         </form>
     </div>
 </div>
+<app-footer></app-footer>
   

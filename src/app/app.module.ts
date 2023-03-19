@@ -22,6 +22,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { SliderComponent } from './slider/slider.component';
 import {MatInputModule} from '@angular/material/input';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { OrderComponent } from './order/order.component';
+import { CustomerComponent } from './customer/customer.component';
+import {MatCardModule} from '@angular/material/card';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +39,9 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     EmployeeDashboardComponent,
     ContactComponent,
     PageNotFoundComponent,
-    SliderComponent
+    SliderComponent,
+    OrderComponent,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +53,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     MatButtonModule,
     MatMenuModule,
     MatInputModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

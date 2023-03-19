@@ -7,10 +7,14 @@
     <button routerLink="/contact" routerLinkActive="active" mat-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
     CONTACT
     </button>
+    <button routerLink="/order" routerLinkActive="active" mat-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      ORDER
+      </button>
     <button mat-button [matMenuTriggerFor]="belowMenu">LOGIN</button>
     <mat-menu #belowMenu="matMenu" yPosition="below">
       <button mat-menu-item routerLink="/admin_login" routerLinkActive="active">Admin_Login</button>
       <button mat-menu-item routerLink="/employee_eogin" routerLinkActive="active">Employee_Login</button>
+      <button mat-menu-item routerLink="/customer_eogin" routerLinkActive="active">Customer_Login</button>
     </mat-menu>
   </mat-toolbar>
   
