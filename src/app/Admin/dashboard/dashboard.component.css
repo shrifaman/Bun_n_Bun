@@ -1,15 +1,39 @@
 .example-container {
-    width: 100%;
-    height: calc(100% - 20px);
-    border: 1px solid rgba(0, 0, 0, 0.5);
-  }
-  
-  .example-sidenav-content {
-    display: flex;
-    height: 100%;
-  }
-  .example-sidenav {
-    padding: 20px;
-  }
-  
-  
+  width: 100%;
+  height: calc(100vh - 130px);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+}
+.example-sidenav {
+  background-color: aquamarine;
+  margin-left: 0px;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+mat-icon{
+  margin-left: 0px;
+}
+.dashboard_button{
+  width: 100%;
+}
+#profile_icon{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.icon_button{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: -13px;
+  margin-top: 13px;
+}
+#profile_page{
+  height: 200px;
+  width: 200px;
+  background-color: aliceblue;
+}

@@ -1,13 +1,23 @@
+<mat-toolbar>
+  <button type="button" mat-button (click)="drawer.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Employee_Dashboard_Login</span>
+  <span class="example-spacer"></span>
+  <div id="profile_icon">
+    <img src="../../../assets/IMG_20211231_075407_580.jpg" class="icon_button">
+  </div>
+</mat-toolbar>
 <mat-drawer-container class="example-container" autosize>
     <mat-drawer #drawer class="example-sidenav" mode="side">
       <p>Auto-resizing sidenav</p>
-        
+      <button mat-button class="dashboard_button"><mat-icon>home</mat-icon>employee</button><br>
+      <button mat-button class="dashboard_button">employee</button><br>
+      <button mat-button class="dashboard_button">employee</button><br>
+      <button mat-button class="dashboard_button">employeghghghgfe</button>
     </mat-drawer>
     <div class="example-sidenav-content">
-      <button type="button" mat-button (click)="drawer.toggle()">
-        <mat-icon>menu</mat-icon>
-      </button>
       <router-outlet></router-outlet>
     </div>
   </mat-drawer-container>
-
+  <mat-toolbar></mat-toolbar>

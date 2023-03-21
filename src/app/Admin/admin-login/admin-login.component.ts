@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-admin-login',
@@ -7,5 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AdminLoginComponent {
   hide = true;
- 
+  constructor(private route:Router){
+  }
+  onlogin(){
+    this.route.navigate(['/dashboard'])
+  }
+  
 }
+

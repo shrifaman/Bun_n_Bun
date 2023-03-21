@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AdminLoginComponent } from './Admin/admin-login/admin-login.component';
 import { DashboardComponent } from './Admin/dashboard/dashboard.component';
 import { ContactComponent } from './contact/contact.component';
-import { CustomerComponent } from './customer/customer.component';
+import { CustomerLoginComponent } from './Customer/customer-login/customer-login.component';
 import { EmployeeDashboardComponent } from './Employee/employee-dashboard/employee-dashboard.component';
 import { EmployeeLoginComponent } from './Employee/employee-login/employee-login.component';
 import { HomeComponent } from './home/home.component';
@@ -15,11 +15,13 @@ const routes: Routes = [
   {path:'home',component:HomeComponent},
   {path:'order',component:OrderComponent},
   {path:'contact',component:ContactComponent},
+  {path:'login',component:DashboardComponent},
   {path:'admin_login',component:AdminLoginComponent},
   {path:'employee_eogin',component:EmployeeLoginComponent},
-  {path:'customer_eogin',component:CustomerComponent},
-  {path:'login',component:DashboardComponent},
   {path:'emp',component:EmployeeDashboardComponent},
+  {path:'customer_login',component:CustomerLoginComponent},
+  {path:'cust',component:OrderComponent},
+  {path:'logout',component:HomeComponent},
   {path:'**',component:PageNotFoundComponent}
 ];
 

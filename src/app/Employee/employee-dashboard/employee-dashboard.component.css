@@ -1,0 +1,33 @@
+.example-container {
+    width: 100%;
+    height: calc(100vh - 130px);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  .example-sidenav-content {
+    display: flex;
+    height: 100%;
+  }
+  .example-sidenav {
+    background-color: aquamarine;
+    margin-left: 0px;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+ mat-icon{
+    margin-left: 0px;
+ }
+  .dashboard_button{
+    width: 100%;
+  }
+  #profile_icon{
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    border-radius: 50px;
+  }
+  .icon_button{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }

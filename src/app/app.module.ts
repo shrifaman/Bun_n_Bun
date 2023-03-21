@@ -23,8 +23,9 @@ import { SliderComponent } from './slider/slider.component';
 import {MatInputModule} from '@angular/material/input';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { OrderComponent } from './order/order.component';
-import { CustomerComponent } from './customer/customer.component';
 import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { CustomerLoginComponent } from './Customer/customer-login/customer-login.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,7 @@ import {MatCardModule} from '@angular/material/card';
     PageNotFoundComponent,
     SliderComponent,
     OrderComponent,
-    CustomerComponent
+    CustomerLoginComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,7 +55,8 @@ import {MatCardModule} from '@angular/material/card';
     MatMenuModule,
     MatInputModule,
     MatSidenavModule,
-    MatCardModule
+    MatCardModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
