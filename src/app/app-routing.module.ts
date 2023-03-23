@@ -15,13 +15,14 @@ const routes: Routes = [
   {path:'home',component:HomeComponent},
   {path:'order',component:OrderComponent},
   {path:'contact',component:ContactComponent},
-  {path:'login',component:DashboardComponent},
+  {path:'login_admin_dashboard',component:DashboardComponent},
   {path:'admin_login',component:AdminLoginComponent},
   {path:'employee_eogin',component:EmployeeLoginComponent},
   {path:'emp',component:EmployeeDashboardComponent},
   {path:'customer_login',component:CustomerLoginComponent},
   {path:'cust',component:OrderComponent},
   {path:'logout',component:HomeComponent},
+  {path:'dashboard_button',component:DashboardComponent},
   {path:'**',component:PageNotFoundComponent}
 ];
 
